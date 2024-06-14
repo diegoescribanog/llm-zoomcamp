@@ -9,17 +9,39 @@ In this module, we'll look at using open-source LLMs instead.
 
 ## 2.1 Open-Source LLMs - Introduction
 
+Video 
 
+* Open-Source LLMs
+* Replacing the LLM box in the RAG flow
 
 ## 2.2 Using a GPU in Saturn Cloud
 
 
 ## 2.3 FLAN-T5
 
+Video
+
+```bash
+import os
+os.environ['HF_HOME'] = '/run/cache/'
+```
+
+Model: `google/flan-t5-xl`
+
 
 Links:
 
-* 
+* https://huggingface.co/google/flan-t5-xl
+* https://huggingface.co/docs/transformers/en/model_doc/flan-t5
+
+Explanation of Parameters:
+
+max_length: Set this to a higher value if you want longer responses. For example, max_length=300.
+num_beams: Increasing this can lead to more thorough exploration of possible sequences. Typical values are between 5 and 10.
+do_sample: Set this to True to use sampling methods. This can produce more diverse responses.
+temperature: Lowering this value makes the model more confident and deterministic, while higher values increase diversity. Typical values range from 0.7 to 1.5.
+top_k and top_p: These parameters control nucleus sampling. top_k limits the sampling pool to the top k tokens, while top_p uses cumulative probability to cut off the sampling pool. Adjust these based on the desired level of randomness.
+
 
 ## 2.4 Phi 3 Mini
 
@@ -52,10 +74,61 @@ Where to find them:
 * Google
 * ChatGPT
 
-## 2.7 Open-Source CPU models
+
+## 2.7 Ollama - Running LLMs on a CPU
+
+Video
+
+The easiest way to run an LLM without a GPU is using [Ollama](https://github.com/ollama/ollama)
+
+For Linux:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+
+ollama start
+ollama serve phi3
+```
+
+[Prompt example](prompt.md)
+
+Connecting to it with OpenAI API:
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url='http://localhost:11434/v1/',
+    api_key='ollama',
+)
+```
+
+Docker
+
+```bash
+docker run -it \
+    -v ollama:/root/.ollama \
+    -p 11434:11434 \
+    --name ollama \
+    ollama/ollama
+```
+
+Pulling the model
+
+```bash
+docker exec -it bash
+ollama pull phi3
+```
 
 
+## 2.8 Ollama & Phi3 + Elastic in Docker-Compose
 
-## 2.8 Serving LLMs 
+Video
+
+* Creating a Docker-Compose file 
+* Re-running the module 1 notebook
 
 
+## 2.9 UI for RAG
+
+* Putting it in Streamlit
