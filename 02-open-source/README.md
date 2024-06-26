@@ -36,9 +36,6 @@ Links:
 * https://github.com/DataTalksClub/llm-zoomcamp-saturncloud
 
 
-
-
-
 ## 2.3 FLAN-T5
 
 <a href="https://www.youtube.com/watch?v=a86iTyxnFE4&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
@@ -52,9 +49,6 @@ Links:
 import os
 os.environ['HF_HOME'] = '/run/cache/'
 ```
-
-
-
 
 Links:
 
@@ -105,7 +99,9 @@ Links:
 
 ## 2.6 Other models
 
-Video
+<a href="https://www.youtube.com/watch?v=GzPV_HTmCkc&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/GzPV_HTmCkc">
+</a>
 
 * [`LLM360/Amber`](https://huggingface.co/LLM360/Amber)
 * [Gemma-7B](https://huggingface.co/blog/gemma)
@@ -132,11 +128,8 @@ Links:
   <img src="https://markdown-videos-api.jorgenkh.no/youtube/PVpBGs_iSjY">
 </a>
 
-
 * The easiest way to run an LLM without a GPU is using [Ollama](https://github.com/ollama/ollama)
 * Notebook [ollama.ipynb](ollama.ipynb)
-
-
 
 For Linux:
 
@@ -173,7 +166,7 @@ docker run -it \
 Pulling the model
 
 ```bash
-docker exec -it bash
+docker exec -it ollama bash
 ollama pull phi3
 ```
 
@@ -194,6 +187,14 @@ ollama pull phi3
   <img src="https://markdown-videos-api.jorgenkh.no/youtube/R6L8PZ-7bGo">
 </a>
 
-
 * Putting it in Streamlit
 * [Code](qa_faq.py)
+
+If you want to learn more about streamlit, you can
+use [this material](https://github.com/DataTalksClub/project-of-the-week/blob/main/2022-08-14-frontend.md)
+from [our repository with projects of the week](https://github.com/DataTalksClub/project-of-the-week/tree/main).
+
+# Notes
+
+* [Workaround by Pham Nguyen Hung to use ElasticSearch container with Saturn Cloud & Google Colab instead of minsearch](https://hung.bearblog.dev/llm-zoomcamp-zrok/)
+* Did you take notes? Add them above this line (Send a PR with *links* to your notes)
