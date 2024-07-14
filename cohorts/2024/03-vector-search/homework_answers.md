@@ -149,6 +149,8 @@ What did you get?
 * 0.53
 * 0.33
 
+**Answer**: 0.93
+
 ## Q5. Indexing with Elasticsearch
 
 Now let's index these documents with elasticsearch
@@ -159,6 +161,8 @@ Now let's index these documents with elasticsearch
 After indexing, let's perform the search of the same query from Q1.
 
 What's the ID of the document with the highest score?
+
+**Answer**: A6nysJABXTX41oljXCU5
 
 ## Q6. Hit-rate for Elasticsearch
 
@@ -178,6 +182,7 @@ What's hitrate for our dataset for Elastic?
 * 0.53
 * 0.33
 
+**Answer**: 0.73
 
 ## Submit the results
 
