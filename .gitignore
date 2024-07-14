@@ -1,7 +1,3 @@
 .ipynb_checkpoints/
 __pycache__/
-<<<<<<< HEAD
-ollama_files/
-=======
 .env
->>>>>>> 505bfd2 (Update .gitignore)
