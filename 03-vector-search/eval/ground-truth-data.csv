@@ -316,11 +316,11 @@ How can I adjust the volume mapping command on Windows if it automatically creat
 What are some alternatives to the '-v' option for mounting volumes with Docker on Windows?,data-engineering-zoomcamp,72229da5
 Is there a specific way to place quotes when using the '$(pwd)' command for volume mapping on Windows?,data-engineering-zoomcamp,72229da5
 What command should I use on a Mac for Docker volume mapping?,data-engineering-zoomcamp,72229da5
-How can I resolve the Docker error 'invalid mode: \Program Files\Git\var\lib\postgresql\data'?,data-engineering-zoomcamp,58c9f99f
+How can I resolve the Docker error 'invalid mode: \\Program Files\\Git\\var\\lib\\postgresql\\data'?,data-engineering-zoomcamp,58c9f99f
 What should I do if I encounter an invalid mode error in Docker on Windows?,data-engineering-zoomcamp,58c9f99f
 What is the correct mounting path to use in Docker for PostgreSQL data on Windows?,data-engineering-zoomcamp,58c9f99f
 Can you provide an example of a correct Docker mounting path for PostgreSQL data?,data-engineering-zoomcamp,58c9f99f
-How do I correct the mounting path error in Docker for \Program Files\Git\var\lib\postgresql\data'?,data-engineering-zoomcamp,58c9f99f
+How do I correct the mounting path error in Docker for \\\Program Files\\Git\\var\\lib\\postgresql\\data'?,data-engineering-zoomcamp,58c9f99f
 How do I fix the Docker build mount error that occurs during the second run?,data-engineering-zoomcamp,bc42139a
 Why should I avoid mounting the path on the second run when using Docker?,data-engineering-zoomcamp,bc42139a
 What command should I use for the second run to avoid the Docker error without mounting?,data-engineering-zoomcamp,bc42139a
@@ -531,7 +531,7 @@ Why is 'PULocationID' not recognized in PGCLI?,data-engineering-zoomcamp,f7c5d8d
 How should 'PULocationID' be formatted in PGCLI to be recognized?,data-engineering-zoomcamp,f7c5d8da
 Are unquoted local identifiers case sensitive in PGCLI?,data-engineering-zoomcamp,f7c5d8da
 Can you explain why 'PULocationID' needs to be quoted in PGCLI?,data-engineering-zoomcamp,f7c5d8da
-What should I do if I get the error column 'c.relhasoids does not exist' when using the command '\d <database name>'?,data-engineering-zoomcamp,c91ad8f2
+What should I do if I get the error column 'c.relhasoids does not exist' when using the command '\\d <database name>'?,data-engineering-zoomcamp,c91ad8f2
 How can I resolve the 'c.relhasoids does not exist' error in PGCLI?,data-engineering-zoomcamp,c91ad8f2
 What's the solution for fixing the 'c.relhasoids does not exist' issue in Docker and Terraform module?,data-engineering-zoomcamp,c91ad8f2
 How do I fix the error when the database 'ny_taxi' does not exist due to 'c.relhasoids does not exist'?,data-engineering-zoomcamp,c91ad8f2
@@ -995,7 +995,7 @@ What is the recommended solution to avoid schema mismatch errors when uploading 
 Could you provide an example of how to enforce data types in a DataFrame before uploading to BigQuery?,data-engineering-zoomcamp,b6fdd91d
 What should I do if I encounter a BadGzipFile error while importing FHV data into GCS?,data-engineering-zoomcamp,155aa868
 How can I fix the gzip.BadGzipFile error caused by 'Not a gzipped file' message when dealing with FHV data?,data-engineering-zoomcamp,155aa868
-What may be causing the error gzip.BadGzipFile: Not a gzipped file (b'\n\n') when I upload FHV data to GCS?,data-engineering-zoomcamp,155aa868
+What may be causing the error gzip.BadGzipFile: Not a gzipped file (b'\\n\\n') when I upload FHV data to GCS?,data-engineering-zoomcamp,155aa868
 Which specific URL format should I use to correctly import FHV data into GCS to avoid gzip errors?,data-engineering-zoomcamp,155aa868
 Why is it important to use '/releases/download' in the URL when importing FHV data to GCS?,data-engineering-zoomcamp,155aa868
 Who can help me with loading data from a URL list into a GCP Bucket in Module 3?,data-engineering-zoomcamp,e78cf960
@@ -2103,7 +2103,7 @@ What can I do if xdg-open is not working and I need to open the dashboard for Ri
 Where can I find a solution for xdg-open issues when trying to open the dashboard in the RisingWave workshop?,data-engineering-zoomcamp,71b1984b
 How can I manually open the index.html file if xdg-open is not functioning during the RisingWave workshop?,data-engineering-zoomcamp,71b1984b
 What error might occur if there is a problem with the Python interpreter path in the shebang line of a script?,data-engineering-zoomcamp,d452b490
-What does the presence of the \r character in a Python script indicate in a Unix-like environment?,data-engineering-zoomcamp,d452b490
+What does the presence of the \\r character in a Python script indicate in a Unix-like environment?,data-engineering-zoomcamp,d452b490
 How can I verify the Python interpreter path in my current Unix-like environment?,data-engineering-zoomcamp,d452b490
 What should I do after finding the correct Python interpreter path with the which python3 command?,data-engineering-zoomcamp,d452b490
 How can I convert line endings of a Python script from Windows-style to Unix-style?,data-engineering-zoomcamp,d452b490
@@ -2273,7 +2273,7 @@ Is it necessary to use Anaconda's own terminal on Windows?,machine-learning-zoom
 Do I need to install Anaconda or Miniconda if I don't already have them?,machine-learning-zoomcamp,f81f4ecb
 Does the specified Python version for the course need to be exactly 3.9?,machine-learning-zoomcamp,f81f4ecb
 How do I read a dataset with Pandas in Windows when my code doesn't work?,machine-learning-zoomcamp,be760b92
-Why does my code df = pd.read_csv('C:\Users\username\Downloads\data.csv') not work in Windows?,machine-learning-zoomcamp,be760b92
+Why does my code df = pd.read_csv('C:\\Users\\username\\Downloads\\data.csv') not work in Windows?,machine-learning-zoomcamp,be760b92
 What is the reason behind backslash causing an issue when reading files in Windows using Pandas?,machine-learning-zoomcamp,be760b92
 What does adding 'r' before the file path do when reading a file in Windows with Pandas?,machine-learning-zoomcamp,be760b92
 Can you show an example of reading a file with Pandas in Windows?,machine-learning-zoomcamp,be760b92
@@ -4477,7 +4477,7 @@ How can we solve the HTTP Error 403 Forbidden when using input_file in score.ipy
 What is the solution provided by Ilnaz Salimov for HTTP Error 403 in the apply_model() function?,mlops-zoomcamp,7aef625b
 Who should I contact if facing an HTTP Error 403 Forbidden in apply_model() within score.ipynb?,mlops-zoomcamp,7aef625b
 What should I do if I encounter a ModuleNotFoundError for 'pipenv.patched.pip._vendor.urllib3.response'?,mlops-zoomcamp,a3aa3a7d
-How can I resolve the error involving 'site-packages\pipenv\patched\pip\_vendor\urllib3\connectionpool.py'?,mlops-zoomcamp,a3aa3a7d
+How can I resolve the error involving 'site-packages\\pipenv\\patched\\pip\\_vendor\\urllib3\\connectionpool.py'?,mlops-zoomcamp,a3aa3a7d
 Is there a single command to reinstall the necessary pipenv module?,mlops-zoomcamp,a3aa3a7d
 What command should I use to force-reinstall pipenv?,mlops-zoomcamp,a3aa3a7d
 How can I ensure my installation for requests is updated?,mlops-zoomcamp,a3aa3a7d
@@ -4621,8 +4621,458 @@ Which version of isort should be set to fix the Pre-commit issue?,mlops-zoomcamp
 Who provided the solution to the Pre-commit issue with isort?,mlops-zoomcamp,fb3c4150
 Can you tell me the module where Pre-commit issues are discussed?,mlops-zoomcamp,fb3c4150
 What is the recommended isort version for Pre-commit command?,mlops-zoomcamp,fb3c4150
-How should I destroy infrastructure created using the CD-Deploy Action in AWS?,mlops-zoomcamp,886d1617
-What is the first step to destroy AWS infrastructure created via GitHub Actions?,mlops-zoomcamp,886d1617
-Can I destroy infrastructure created with GitHub Actions from my local setup?,mlops-zoomcamp,886d1617
-What command initializes Terraform with specific backend configuration before destroying infrastructure?,mlops-zoomcamp,886d1617
-How do you specify the variable file when running terraform destroy?,mlops-zoomcamp,886d1617
+[,mlops-zoomcamp,886d1617
+\,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+H,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+w,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+l,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+I,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+g,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+C,mlops-zoomcamp,886d1617
+D,mlops-zoomcamp,886d1617
+-,mlops-zoomcamp,886d1617
+D,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+p,mlops-zoomcamp,886d1617
+l,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+A,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+A,mlops-zoomcamp,886d1617
+W,mlops-zoomcamp,886d1617
+S,mlops-zoomcamp,886d1617
+?,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+",",mlops-zoomcamp,886d1617
+\,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+W,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+p,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+A,mlops-zoomcamp,886d1617
+W,mlops-zoomcamp,886d1617
+S,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+v,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+G,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+H,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+b,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+A,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+?,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+",",mlops-zoomcamp,886d1617
+\,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+C,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+I,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+w,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+G,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+H,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+b,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+A,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+m,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+m,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+l,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+l,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+p,mlops-zoomcamp,886d1617
+?,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+",",mlops-zoomcamp,886d1617
+\,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+W,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+m,mlops-zoomcamp,886d1617
+m,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+l,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+z,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+T,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+m,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+w,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+p,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+b,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+k,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+g,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+b,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+g,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+?,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+",",mlops-zoomcamp,886d1617
+\,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+H,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+w,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+p,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+c,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+v,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+b,mlops-zoomcamp,886d1617
+l,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+l,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+w,mlops-zoomcamp,886d1617
+h,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+u,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+i,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+g,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+a,mlops-zoomcamp,886d1617
+f,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+m,mlops-zoomcamp,886d1617
+ ,mlops-zoomcamp,886d1617
+d,mlops-zoomcamp,886d1617
+e,mlops-zoomcamp,886d1617
+s,mlops-zoomcamp,886d1617
+t,mlops-zoomcamp,886d1617
+r,mlops-zoomcamp,886d1617
+o,mlops-zoomcamp,886d1617
+y,mlops-zoomcamp,886d1617
+?,mlops-zoomcamp,886d1617
+"""",mlops-zoomcamp,886d1617
+\,mlops-zoomcamp,886d1617
+n,mlops-zoomcamp,886d1617
+],mlops-zoomcamp,886d1617
